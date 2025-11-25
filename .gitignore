@@ -205,3 +205,29 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- ML & Data Science Specifics ---
+# Ignore Data folders (Should keep data locally)
+data/
+datasets/
+*.csv
+*.json
+
+# Ignore Large Model files (Push the final one, but ignore intermediate ones)
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Ignore Jupyter Notebook checkpoints (These cause huge merge conflicts)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Ignore Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore Virtual Environments
+venv/
+env/
+.env
