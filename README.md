@@ -91,3 +91,7 @@ conda run -n sa-train --no-capture-output python Models/trainer.py --data data/i
 If you'd like, I can also:
 - add a `requirements.txt` with pinned packages, or
 - add a small button to the UI that saves generated placeholder figures into `artifacts/` automatically.
+
+
+**Github Link 
+- https://github.com/ISY503-Group-3/sentiment-analysis-project
